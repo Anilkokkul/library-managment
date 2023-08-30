@@ -33,9 +33,11 @@ const Home = () => {
       key: "action",
       render: (_, record) => (
         <Space size="middle">
-          <button onClick={() => handleDelete(record)}>Delete</button>
+          <Button type="primary" onClick={() => handleDelete(record)} danger>
+            Delete
+          </Button>
           <Link to={`/edit/${record.id}`}>
-            <a>Edit</a>
+            <Button>Edit</Button>
           </Link>
         </Space>
       ),

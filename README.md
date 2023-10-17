@@ -1,1 +1,1 @@
-# The librarary management system
+# The library management system
